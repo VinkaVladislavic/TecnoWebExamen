@@ -4,53 +4,53 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Comercio</title>
-        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
         <header>
             <div class="contenedor">
-                <h1>COMERCIO</h1>
-                <nav>
-                    <a href="#menu1">Menu 1</a>
-                    <a href="#menu2">Menu 2</a>
-                    <a href="#menu3">Menu 3</a>
-                    <a href="#menu4">Menu 4</a>
-                    <button>Inscribirse</button>
-                    <button>-</button> 
+                <h1 class="contenedor__titulo">COMERCIO</h1>
+                <nav class="contenedor__nav">
+                    <a class="contenedor__nav-link" href="#menu1">Menu 1</a>
+                    <a class="contenedor__nav-link" href="#menu2">Menu 2</a>
+                    <a class="contenedor__nav-link" href="#menu3">Menu 3</a>
+                    <a class="contenedor__nav-link" href="#menu4">Menu 4</a>
+                    <button type="button" class="contenedor__nav-button">Inscribirse</button>
+                    <button type="button" class="contenedor__nav-button">-</button> 
                 </nav>
             </div>
         </header>
         <main>
             <section class="hero">
-                <h1>Listo para empezar?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque voluptate architecto repellendus ducimus id pariatur, aut molestias iusto dolores ab aliquid commodi, magni similique labore doloribus esse nisi. Minus, a.</p>
-                <button>Iniciar prueba gratuita</button>
+                <h1 class="hero__titulo">¿Listo para empezar?</h1>
+                <p class="hero__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque voluptate architecto repellendus ducimus id pariatur, aut molestias.</p>
+                <button class="hero__button" type="button">Iniciar prueba gratuita</button>
             </section>
             <section class="boletin">
-                <h2>Únase a nuestro boletín</h2>
+                <h2 class="boletin__titulo">Únase a nuestro boletín</h2>
                 <p>Suscríbete para recibir actualizaciones, acceder a ofertas exclusivas y más.</p>
                 <form>
-                    <label>Nombre:</label>
-                    <input type="text" name="nombre" required placeholder="Su nombre">
-                    <label>Email:</label>
-                    <input type="email" name="email" required placeholder="Su direccion de email">
-                    <button type="submit">Suscribirse</button>
+                    <label class="boletin__label" for="nombre">Nombre:</label>
+                    <input class="boletin__input" type="text" name="nombre" id="nombre" required placeholder="Su nombre">
+                    <label class="boletin__label" for="email">Email:</label>
+                    <input class="boletin__input" type="email" name="email" id="email" required placeholder="Su direccion de email">
+                    <button class="boletin__button" type="submit">Suscribirse</button>
                 </form>
             </section>
         </main>
-        <footer>
-            <div class="footer-columnas">
-                <div class="footer-columna">
-                    <h2>COMERCIO</h2>
-                    <p>&copy; 2025 - 2026</p>
-                    <a href="#terminos">Términos - Privacidad</a>
+        <footer class="footer">
+            <div class="footer__columnas">
+                <div class="footer__columna">
+                    <h2 class="footer__columna-titulo">COMERCIO</h2>
+                    <p class="footer__columna-descripcion">&copy; 2025 - 2026</p>
+                    <a class="footer__columna-enlace" href="#terminos">Términos - Privacidad</a>
                 </div>
-                <div class="footer-columna">
-                    <h3>Enlaces</h3>
-                    <a href="#productos">Productos</a>
-                    <a href="#caracteristicas">Características</a>
-                    <a href="#recursos">Recursos</a>
-                    <a href="#compania">Compañía</a>
+                <div class="footer__columna">
+                    <h3 class="footer__columna-titulo">Enlaces</h3>
+                    <a class="footer__columna-enlace" href="#productos">Productos</a>
+                    <a class="footer__columna-enlace" href="#caracteristicas">Características</a>
+                    <a class="footer__columna-enlace" href="#recursos">Recursos</a>
+                    <a class="footer__columna-enlace" href="#compania">Compañía</a>
                 </div>
             </div>
         </footer>

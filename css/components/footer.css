@@ -1,0 +1,36 @@
+/* ===== FOOTER ===== */
+footer {
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+  padding: 50px 20px;
+}
+
+.footer__columnas {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer__columna {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+footer .footer__columna-titulo {
+  font-size: 28px;
+  margin: 30px 0;
+}
+
+footer .footer__columna-descripcion,
+footer .footer__columna-enlace {
+  margin: 7px 0;
+  display: block;
+  color: var(--color-blanco);
+  text-decoration: none;
+}
+
+footer .footer__columna-enlace:hover {
+  color: var(--color-gris);
+}

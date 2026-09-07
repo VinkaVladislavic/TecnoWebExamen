@@ -1,0 +1,9 @@
+/* ===== CONTENEDOR CENTRADO ===== */
+.contenedor {
+  max-width: var(--max-width-contenedor);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
